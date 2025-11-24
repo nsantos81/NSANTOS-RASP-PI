@@ -31,7 +31,7 @@ Connect your LEDs according to the screenshot below.
 <ins>Stage 3</ins> (Inputting your code needed to run the program)
 1. Now that you have everything connected to your Pi and Breadboard, go ahead and connect your Pi to the power.
 2. Login to the Pi and open the Thotty application.
-3. Navigate to the main.py file in the NSANTOS-RASP-PI branch.
+3. Navigate to the main.py file in the NSANTOS-RASP-PI repository.
 4. Copy the code found in the main.py file into the Thotty application.
 5. Run the program.
 6. Now take something like a sticky note and move it towards the sensor. If everything was set up properly the green LED should blink if the object is less than 10cm away - if the object is sensed to be further than 10cm away the red LED will blink.

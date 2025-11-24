@@ -16,7 +16,7 @@ The purpose of the following design, is to have a system that can indicate to us
 
 <ins>Stage 1</ins> (Setting up the sensor)
 
-Connect your coponents as displayed by the screenshot below. (Your grounding and GPIO connections do not have to be the exact same as what you see - 
+Connect your components as displayed by the screenshot below. (Your grounding and GPIO connections do not have to be the exact same as what you see - 
 but you will then have to keep this in mind during Stage 3 when we set our code on the Pi) 
   
 **WARNING:** Please ensure you are using the correct resistors, otherwise the sensor will overheat (disconnect the power from the Pi if anything feels unreasonably warm).

@@ -2,7 +2,7 @@
 
 The purpose of the following design, is to have a system that can indicate to us how far or close an object is to a sensor. Although we get a numerical output from the sensor onto our Pi (as to how far or close an object is), how would we be able to tell the difference if we had no way to display said output? Well with lights of course! As you will see soon this is a very simplified design, but it sets a good presidence for how distance-reading devices work.
 
-**ATTENTION:** Do not connect/disconnect wires to the raspberry Pi while it is on. I strongly you setup everything first before connecting the Pi to a power source.
+**ATTENTION:** Do not connect/disconnect wires to the raspberry Pi while it is on. I strongly suggest you setup everything first before connecting the Pi to a power source.
 
 <ins>You will need</ins>  
 -1 Raspberry Pi  

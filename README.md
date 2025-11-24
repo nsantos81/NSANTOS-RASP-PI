@@ -1,6 +1,6 @@
 # NSANTOS-RASP-PI
 
-Today we will be setting up our breadboard to use a sensor, display distance as textual output, and also blink a particular light depending on the distance an object is from our sensor.
+The purpose of the following design is to have a system that can indicate to us how far or close an object is to a sensor. Although we get a numerical output from the sensor onto our Pi (as to how far or close an object is), how would we be able to tell the difference if we had no way to display said output? Well with lights of course! As you will see soon this is a very simplified design, but it sets a good presidence for how distance-reading devices work.
 
 **ATTENTION:** Do not connect/disconnect wires to the raspberry Pi while it is on. I strongly you setup everything first before connecting the Pi to a power source.
 

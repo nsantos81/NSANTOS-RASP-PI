@@ -26,8 +26,9 @@ you will then need to modify your code (covered in stage 3) to address the GPIO 
 <ins>Stage 2</ins> (Setting up the LEDs)  
 Connect your LEDs according to the screenshot below.
 
-<img width="945" height="590" alt="Screenshot 2025-11-24 114838" src="https://github.com/user-attachments/assets/096eea67-2262-41c4-9e63-a4ad2c0576ab" />
+<img width="945" height="590" alt="Screenshot 2025-11-24 114838" src="https://github.com/user-attachments/assets/096eea67-2262-41c4-9e63-a4ad2c0576ab" />  
 
+  
 <ins>Stage 3</ins> (Inputting your code needed to run the program)
 1. Now that you have everything connected to your Pi and Breadboard, go ahead and connect your Pi to the power.
 2. Login to the Pi and open the Thotty application.

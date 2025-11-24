@@ -7,7 +7,7 @@ Today we will be setting up our breadboard to use a sensor, display distance as 
 <ins>You will need</ins>  
 -1 Raspberry Pi  
 -1 Breadboard  
--8 male to female wires  
+-8 male to female jumper wires  
 -1 HC-SR04 Sensor  
 -1 470Ohm resistor  
 -1 330Ohm resistor  

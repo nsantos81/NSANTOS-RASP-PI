@@ -1,4 +1,14 @@
 # NSANTOS-RASP-PI
 
-Testing Testing this is just a a test
-<img width="1248" height="654" alt="Screenshot 2025-11-24 112516" src="https://github.com/user-attachments/assets/5d1399c3-beb0-4c33-86ad-1b6cdd61f2d2" />
+Today we will be setting up our breadboard to use a sensor, display distance as output, and also blink a particular light depending on distance.
+
+You will need
+-1 Raspberry Pi
+-1 Breadboard
+-8 male to female wires
+-1 HC-SR04 Sensor
+-1 470Ohm resistor
+-1 330Ohm resistor
+-2 220Ohm resistor(s)
+-2 LED (preferably two different colors)
+

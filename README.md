@@ -7,7 +7,7 @@ The purpose of the following design, is to have a system that can indicate to us
 <ins>You will need</ins>  
 -1 Raspberry Pi  
 -1 Breadboard  
--8 male to female jumper wires  
+8 male to female jumper wires  
 -1 HC-SR04 Sensor  
 -1 470Ohm resistor  
 -1 330Ohm resistor  
@@ -16,10 +16,10 @@ The purpose of the following design, is to have a system that can indicate to us
 
 <ins>Stage 1</ins> (Setting up the sensor)
 
-Connect your components as displayed by the screenshot below. (Your grounding and GPIO connections do not have to be the exact same as what you see - 
-but you will then have to keep this in mind during Stage 3 when we set our code on the Pi) 
+Connect your components as displayed by the screenshot below. Your grounding and GPIO connections should be the same as mine - if you choose to use different pins,
+you will then need to modify your code (covered in stage 3) to address the GPIO differences. 
   
-**WARNING:** Please ensure you are using the correct resistors, otherwise the sensor will overheat (disconnect the power from the Pi if anything feels unreasonably warm).
+**WARNING:** Please ensure you are using the correct resistors, otherwise the sensor will overheat (disconnect the power from the Pi if anything feels unreasonably warm or smells off).
 <img width="1267" height="466" alt="Screenshot 2025-11-24 112909" src="https://github.com/user-attachments/assets/5682e6b3-d9d1-4379-a57e-cc64b66051bb" />
 
 
@@ -31,7 +31,7 @@ Connect your LEDs according to the screenshot below.
 <ins>Stage 3</ins> (Inputting your code needed to run the program)
 1. Now that you have everything connected to your Pi and Breadboard, go ahead and connect your Pi to the power.
 2. Login to the Pi and open the Thotty application.
-3. Navigate to the main.py file in the NSANTOS-RASP-PI repository.
+3. Navigate to the main.py file found in the NSANTOS-RASP-PI repository.
 4. Copy the code found in the main.py file into the Thotty application.
 5. Run the program.
-6. Now take something like a sticky note and move it towards the sensor. If everything was set up properly the green LED should blink if the object is less than 10cm away - if the object is sensed to be further than 10cm away the red LED will blink.
+6. Now take something, like a sticky note, and move it towards the sensor. If everything was set up properly the green LED should blink if the object is less than 10cm away - if the object is sensed to be further than 10cm away the red LED will blink.

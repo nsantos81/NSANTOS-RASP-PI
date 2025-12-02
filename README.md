@@ -16,17 +16,23 @@ The purpose of the following design, is to have a system that can indicate to us
 
 <ins>Stage 1</ins> (Setting up the sensor)  
 Connect your components as displayed by the screenshot below. Your grounding and GPIO connections should be the same as mine - if you choose to use different pins,
-you will then need to modify your code (covered in stage 3) to address the GPIO differences. 
-  
+you will then need to modify your code (covered in stage 3) to address the GPIO differences.
+
 **WARNING:** Please ensure you are using the correct resistors, otherwise the sensor will overheat (disconnect the power from the Pi if anything feels unreasonably warm or smells off).
   
 <img width="1267" height="466" alt="Screenshot 2025-11-24 112909" src="https://github.com/user-attachments/assets/5682e6b3-d9d1-4379-a57e-cc64b66051bb" />
   
 <ins>Stage 2</ins> (Setting up the LEDs)    
-Connect your LEDs according to the screenshot below.  
+Connect your LEDs according to the screenshot below.
   
-<img width="945" height="590" alt="Screenshot 2025-11-24 114838" src="https://github.com/user-attachments/assets/096eea67-2262-41c4-9e63-a4ad2c0576ab" />
-  
+<img width="945" height="590" alt="Screenshot 2025-11-24 114838" src="https://github.com/user-attachments/assets/096eea67-2262-41c4-9e63-a4ad2c0576ab" />\n
+
+**NOTICE:** If you would like to save on wires - remove the two ground wires being used for the LEDS (their resistors are already on the blue(-) column of the breadboard),
+then using a male to male wire connect the GND wire being used for the HC-SR04 Sensor to the blue(-) column of the breadboard as well, now to actually ground the entire system use a 
+male/female wire and connect the male side to the blue(-) column of the breadboard and the female end to a GND pin on the PI. You have now cleaned things up a bit. (Reference below)
+
+<img width="870" height="602" alt="Screenshot 2025-12-02 103326" src="https://github.com/user-attachments/assets/e2910924-c96c-4712-b353-f88fd5809a54" />\n
+
 <ins>Stage 3</ins> (Inputting your code needed to run the program)
 1. Now that you have everything connected to your Pi and Breadboard, go ahead and connect your Pi to the power.
 2. Login to the Pi and open the Thotty application.

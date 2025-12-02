@@ -20,8 +20,8 @@ you will then need to modify your code (covered in stage 3) to address the GPIO 
 
 **WARNING:** Please ensure you are using the correct resistors, otherwise the sensor will overheat (disconnect the power from the Pi if anything feels unreasonably warm or smells off).
   
-<img width="1267" height="466" alt="Screenshot 2025-11-24 112909" src="https://github.com/user-attachments/assets/5682e6b3-d9d1-4379-a57e-cc64b66051bb" />
-  
+<img width="1267" height="466" alt="Screenshot 2025-11-24 112909" src="https://github.com/user-attachments/assets/5682e6b3-d9d1-4379-a57e-cc64b66051bb" />\n
+
 <ins>Stage 2</ins> (Setting up the LEDs)    
 Connect your LEDs according to the screenshot below.
   
